@@ -1,0 +1,327 @@
+/*Blue = element selectors, red = class selectors, light-blue = Id selectors*/
+/* Ordered Alphabetically */
+
+/*for all text*/
+p{
+	font-size : 1.2vw;
+	line-height : 14pt;
+	font-family : Cambria, sans-serif;
+	color : black
+}
+/*for headings*/
+h1{
+	font-size : 30pt;
+	font-family : Verdana, sans-serif;
+	color : black;
+}
+h2{
+	color : RGB(0, 150, 50);
+}
+h3{
+	color : Magenta;
+}
+div {
+    text-align: justify;
+}
+
+div img {
+    display: inline-block;
+    width: 20vw;
+    height: 20vw;
+}
+
+div:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+/*Class Section*/
+.alignleft{
+	float : left;
+	text-align : left;
+}
+.alignright{
+	float : right;
+	text-align : right;
+}
+.black{
+	color : black;
+	background-color : white;
+	padding : 10px;
+}
+.center{
+	text-align : center;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+.citationstext{
+	margin-bottom : 2pt;
+	width : 50em;
+	background-color : #A6FEF3;
+	padding : 5pt;
+}
+.imageborder
+{
+	border : 3px solid;
+	margin-right : -2%;
+}
+.no-repeat{
+	background-image : url(Images/BackgroundPic.jpg);
+	background-repeat : no-repeat; 
+	background-size : 100% 100%;
+}
+.tabletitles{
+	color : black;
+}
+.white{
+	color : white;
+	background-color : black;
+	padding : 5px;
+}
+/* ID Selectors (most spefific selectors) */
+#Citations{
+	margin-top : 5vw;
+	margin-bottom : 40px;
+	padding : 7px;
+	color : red;
+	background-color : black;
+	border : 2px solid;
+	width : 5.5em;
+	font-size : 22pt;
+}
+#ComponentsPc{
+	margin-bottom : 2%;
+	margin-top : 8%;
+	border : 2px solid;
+	width : 14em;
+	color : black;
+	background-color : #F5BCA9;
+	padding : 5pt;
+}
+#DVDRomDesc{
+	text-align : center;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 80pt;
+	margin-right : 51%;
+	width : 12em;
+	background-color : #FED470;
+	padding : 5pt;
+}
+#ExteriorPc{
+	margin-bottom : 5%;
+	margin-right : 3%;
+	margin-left : 5%;
+	border : 2px solid;
+	width : 14em;
+	background-color : #EEFF70;
+	padding : 5pt;
+}
+#InteriorPic{
+	margin-left : 7vw;
+}
+#FinalHeading1{
+	border : 3px solid;
+	background-color : black;
+	color : white;
+	padding : 15px;
+	text-align : center;
+	font-size : 28pt;
+	margin-top : 10%;
+}
+#FinalHeading2{
+	border : 3px solid;
+	background-color : white;
+	color : black;
+	padding : 15px;
+	text-align : center;
+	font-size : 28pt;
+	margin-top : 10%;
+}
+#FinalHeading3{
+	border : 3px solid;
+	background-color : black;
+	color : white;
+	padding : 15px;
+	text-align : center;
+	font-size : 35pt;
+	margin-top : 2%;
+}
+#FirstBodyText{
+	margin-bottom : 40pt;
+	margin-top : 15pt;
+	width : 50em;
+	background-color : PaleGreen;
+	padding : 5pt;
+}
+#HardDriveDesc{
+	text-align : center;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	margin-bottom : 80pt;
+	margin-left : 50%;
+	margin-top : -38%;
+	width : 12em;
+	background-color : #FE84DE;
+	padding : 5pt;
+}
+#HeatSinkDesc{
+	border : 2px solid;
+	text-align : left;
+	margin-top : 15pt;
+	margin-bottom : 10pt;
+	background-color : #FEF2A5;
+	width : 20em;
+	padding : 8pt;
+ 
+}
+#HowComponentsInteract{
+	margin-top : 70px;
+	margin-bottom : 30px;
+	padding : 7px;
+	color : magenta;
+	background-color : black;
+	border : 2px solid;
+	width : 12em;
+	font-size : 22pt;
+}
+#HowComputersWork{
+	margin-top : 70px;
+	margin-bottom : 30px;
+	padding : 5px;
+	color : orange;
+	background-color : black;
+	border : 2px solid;
+	width : 11em;
+	font-size : 22pt;
+}
+#InteriorPc{
+	margin-bottom : 5vw;
+	margin-right : 2vw;
+	border : 2px solid; 
+	width : 14em;
+	background-color : #EEFF70;
+	padding : 5pt;
+}
+#MarginTopBottom{
+	margin-top : 2%;
+	margin-bottom : 30px;
+	border : 3px solid;
+	padding : 3px;
+	width : 13em;
+	background-color : white;
+	color : black;
+}
+#MotherBoardDesc{
+	margin-bottom : -30%;
+	border : 2px solid;
+	text-align : center;
+	background-color : #FEF2A5;
+	width : 10em;
+	padding : 8pt;
+}
+#MotherBoardMarginLeft{
+	margin-left : 5.4%;
+	margin-top : -10%;
+}
+#Names{
+	background-color : black;
+	color : white;
+	padding : 5pt;
+	font-weight : bold;
+	font-size : 15pt;
+	width : 15em;
+	border : 3px solid;
+	text-align : center;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
+#PowerSupplyDesc{
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+	margin-top : -20%;
+	border : 2px solid;
+	background-color : #FEF2A5;
+	width : 20em;
+	padding : 8pt;
+}
+#PowerSupplyLeft{
+	margin-left : 7vw;
+	margin-top : -3vw;
+}
+#ReferenceDocs{
+	border : 3px solid;
+	padding : 12px;
+	width : 15em;
+	background-color : white;
+	color : magenta;
+}
+#SecoundBodyText{
+	margin-bottom : 40pt;
+	margin-top : 15pt;
+	width : 50em;
+	background-color : violet;
+	padding : 5pt;
+}
+#StartingPc{
+	margin-top : 20px;
+	margin-bottom : 30px;
+	padding : 7px;
+	color : black;
+	background-color : #52FFEA;
+	border : 2px solid;
+	width : 23em;
+	font-size : 15pt;
+}
+#ThreeMore1{
+	margin-top : 7%;
+	border : 2px solid;
+	width : 12em;
+	background-color : black;
+	color : #FFFF00;
+	padding : 12px;
+	font-weight : bold;
+}
+#ThreeMore2{
+	margin-top : 7%;
+	border : 2px solid;
+	width : 21em;
+	color : black;
+	background-color : #FFFF00;
+	padding : 12px;
+	font-weight : bold;
+}
+#ThreeMore3{
+	margin-top : 7%;
+	border : 2px solid;
+	width : 16em;
+	color : #2FEFFF;
+	background-color : black;
+	padding : 12px;
+	font-weight : bold;
+}
+#ThreeMore4{
+	margin-top : 7%;
+	border : 2px solid;
+	width : 12em;
+	color : black;
+	background-color : #2FEFFF;
+	padding : 12px;
+	font-weight : bold;
+}
+#Title{
+	background-color : cyan;
+	padding : 5pt;
+	font-weight : bold;
+	width : 22em;
+	border : 3px solid;
+	text-align : center;
+	display : block;
+	margin-left : auto;
+	margin-right : auto;
+}
